@@ -5,7 +5,7 @@ import GithubMarkWhite from "../../images/github-mark-white.png";
 const Header = () => {
     return (
         <header className="fixed z-[100] w-screen h-12 backdrop-blur-md bg-black/90">
-            <div className="flex h-full justify-between items-center mx-8">
+            <div className="flex h-full max-w-screen-xl justify-between items-center px-8 xl:mx-auto">
                 <Link
                     to="/"
                     className="text-white text-xl font-bold hover:cursor-pointer hover:rotate-12 transition-transform"
