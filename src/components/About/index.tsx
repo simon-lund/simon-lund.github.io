@@ -9,8 +9,8 @@ const About = () => {
     }, []);
 
     return (
-        <div className="flex flex-col items-center pt-4">
-            <h2 className={"mb-8 text-center text-4xl font-bold"}>
+        <div className="flex flex-col items-center pt-6">
+            <h2 className={"mb-6 text-center text-4xl font-bold"}>
                 About
             </h2>
             <div className="max-w-screen-lg mx-6 md:mx-24 text-lg text-justify space-y-4 font-bold text-[#86868B] [&>*>strong]:text-black">
