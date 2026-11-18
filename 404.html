@@ -61,6 +61,11 @@
 				margin-top: 0.125rem;
 			}
 		</style>
+		<script>
+			// Klementine Draw's documentation moved: a page of it forwards to the same page there.
+			if (location.pathname.startsWith('/svelte-draw/'))
+				location.replace('https://klementine-net.github.io' + location.pathname + location.search + location.hash);
+		</script>
 	</head>
 	<body>
 		<main>
